@@ -1,0 +1,8 @@
+/* Critical CSS are written here */
+.loading {
+	height: 100vh;
+	display: flex;
+	box-sizing: border-box;
+	align-items: center;
+	justify-content: center;
+}

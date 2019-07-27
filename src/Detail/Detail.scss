@@ -1,0 +1,25 @@
+@import '../globals.scss';
+
+.detail {
+	min-height: calc(100vh - #{$header-height} - #{$footer-height});
+	box-sizing: border-box;
+	transition-delay: 0.5s;
+	margin-bottom: 1rem;
+
+	:not(.detail--image) {
+		padding: 0 1rem;
+	}
+
+	.detail--image {
+		height: 40vh;
+		width: 100%;
+		background-color: #ddd;
+		object-fit: cover;
+	}
+
+	a {
+		color: #c52b2b;
+		font-weight: bold;
+		text-decoration: none;
+	}
+}
